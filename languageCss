@@ -1,0 +1,57 @@
+
+
+.language-flag {
+    float: left;
+    padding-top: 2px;
+}
+
+}
+.language-selector {
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+}
+.language-selector .icon-arrow-down, .language-selector .sorting-cell .sorting-arrow, .sorting-cell .language-selector .sorting-arrow {
+    font-size: 12px;
+}
+
+}
+.language-dropdown {
+    background-color: #202324;
+    left: -63px;
+    max-height: 0;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    display: none;
+    overflow: hidden;
+    width: 136px;
+    z-index: 100;
+    max-height: 140px;
+    padding: 10px 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+@media (max-width: 1024px) and (min-width: 768px)
+.language-dropdown {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.language-dropdown a {
+    color: #00aeef;
+    display: block;
+    line-height: 15px;
+    padding: 10px 20px;
+}
+
+
+.sub-header .icon, .sub-header .tournaments-categories-item .item-link:before, .tournaments-categories-item .sub-header .item-link:before {
+    color: #00aeef;
+    font-size: 10px;
+    margin-left: 5px;
+}
